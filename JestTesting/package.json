@@ -1,0 +1,22 @@
+{
+  "name": "jesttesting",
+  "version": "1.0.0",
+  "description": "Jest test cases",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaygore06/LearningNode.git"
+  },
+  "keywords": [
+    "jest",
+    "testing"
+  ],
+  "author": "Akshay Gore",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
