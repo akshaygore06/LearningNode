@@ -36,5 +36,6 @@ test("should click  on the add button", async () => {
   await page.click("input#age");
   await page.type("input#age", "30");
   await page.click("#btnAddUser");
-  const name = page.$eval(".user-item", "gore[30 years old]");
+  const name = await page.$eval(".user-item", (el) => el.textContent);
+  expect(name).toBe("gore [30 years old]");
 }, 10000);
