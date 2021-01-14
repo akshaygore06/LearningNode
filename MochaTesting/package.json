@@ -1,0 +1,27 @@
+{
+  "name": "mochatesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaygore06/LearningNode.git"
+  },
+  "keywords": [
+    "mocha",
+    "testing"
+  ],
+  "author": "Akshay Gore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaygore06/LearningNode/issues"
+  },
+  "homepage": "https://github.com/akshaygore06/LearningNode#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
