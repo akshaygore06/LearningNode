@@ -1,3 +1,9 @@
-module.exports = function () {
-  return "Hello";
+module.exports = {
+  greetings: function () {
+    return "Hello";
+  },
+
+  addNumbers: function (a, b) {
+    return a + b;
+  },
 };
