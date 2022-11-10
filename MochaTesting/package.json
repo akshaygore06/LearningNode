@@ -22,6 +22,6 @@
   "homepage": "https://github.com/akshaygore06/LearningNode#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.2.1"
+    "mocha": "^10.1.0"
   }
 }
